@@ -1,3 +1,6 @@
+/* eslint-disable indent */
+/* eslint-disable quotes */
+/* eslint-disable linebreak-style */
 module.exports = {
   "env": {
     "browser": true,
@@ -18,6 +21,11 @@ module.exports = {
   "plugins": [
     "react", "jest"
   ],
+    "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "indent": [
       "error",
